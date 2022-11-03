@@ -2,7 +2,7 @@ import React from "react"
 import Quiz from "./Quiz"
 import { nanoid } from 'nanoid'
 import {shuffle} from "lodash"
-import Confetti from "react-confetti"
+//import Confetti from "react-confetti"
 import flower from "./flower.png"
 
 export default function App() {
@@ -122,7 +122,7 @@ export default function App() {
               {showAnswers && <p className='score'>You scored {score} / 5 correct answers</p>}
               {!showAnswers && <button className="answerButton" onClick={checkAnswers}>Check Answers</button>}
               {showAnswers && <button className="answerButton" onClick={clearAnswers}>Play Again</button>}
-              {score === 5 && <Confetti/>}
+              //{score === 5 && <Confetti/>}
       </section>
       
       }
