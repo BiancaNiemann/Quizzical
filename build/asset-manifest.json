@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/static/js/main.10319f2f.js",
+    "static/media/flower.png": "/static/media/flower.6998c9a88defe42ecc30.png",
+    "static/media/yelloblob.png": "/static/media/yelloblob.5fc193a3daf3bfe0e98a.png",
+    "index.html": "/index.html",
+    "main.10319f2f.js.map": "/static/js/main.10319f2f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.10319f2f.js"
+  ]
+}
