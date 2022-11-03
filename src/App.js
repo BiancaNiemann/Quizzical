@@ -2,7 +2,6 @@ import React from "react"
 import Quiz from "./Quiz"
 import { nanoid } from 'nanoid'
 import {shuffle} from "lodash"
-import yelloblob from "./yelloblob.png"
 import Confetti from "react-confetti"
 import flower from "./flower.png"
 
@@ -13,7 +12,6 @@ export default function App() {
   const [questions, setQuestions] = React.useState([])
   const [score, setScore] = React.useState(0)
   const [replay, setReplay] = React.useState(false)
-  console.log(questions)
 
   React.useEffect(() => {
     fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple")

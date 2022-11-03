@@ -1,8 +1,8 @@
 import React from "react";
-import { nanoid } from "nanoid";
+
 
 export default function Quiz(props) {
-    const [score, setScore] = React.useState(0)
+
 
     return (
         <div>
